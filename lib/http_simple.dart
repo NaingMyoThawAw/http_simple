@@ -5,6 +5,8 @@ import 'src/_src_exp.dart';
 
 export 'src/_src_exp.dart';
 
+String? connectionErrorMessage;
+
 Future<Response> get({
   final Function(Response)? onResponse,
   final Function()? onTimeout,
